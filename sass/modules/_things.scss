@@ -1,6 +1,9 @@
 .fave-section {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .fave { 
@@ -9,7 +12,7 @@
 
     .name, .info, .bio { margin: auto; }
 
-    img { max-width: 100%; }
+    img { max-width: 90%; }
 
 }
 
