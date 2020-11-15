@@ -1,0 +1,26 @@
+body {
+    font: $main-font;
+    font-size: $main-font-size;
+
+    background-color: $main-bg-color;
+
+    margin: 0 0 50px 0; 
+    border: 0;
+}
+
+h2 {
+    margin: auto;
+  width: 50%;
+  border-bottom: 3px solid salmon;
+  color: grey;
+  padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font: helvetiva;
+    font-size: 14px;
+    font-weight: 200;
+    color: grey;
+}
