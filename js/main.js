@@ -18,8 +18,8 @@ import { fetchData, postData } from "./modules/dataMiner.js";
 
             currentUserText[1].src = `images/${data[user].avatar}`;
             currentUserText[2].textContent = data[user].name;
-            currentUserText[3].textContent = data[user].breedage;
-            currentUserText[4].textContent = data[user].facts;
+            currentUserText[3].textContent = data[user].info;
+            currentUserText[4].textContent = data[user].bio;
 
           
             userSection.appendChild(currentUser);
