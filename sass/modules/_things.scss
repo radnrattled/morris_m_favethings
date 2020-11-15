@@ -1,9 +1,5 @@
 .fave-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
+    display: inline-flex;
 }
 
 .fave { 
@@ -23,4 +19,9 @@
 @media screen and (min-width: 768px) {
     .user { flex: 1; }
     .user img { max-width: 150px; }
+    
+}
+
+@media screen and (max-width: 768px) {
+   .fave-section{flex-wrap: wrap;}
 }
