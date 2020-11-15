@@ -1,0 +1,23 @@
+.fave-section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fave { 
+    // flex: 1;
+    @include addPadding(10px);
+
+    .name, .info, .bio { margin: auto; }
+
+    img { max-width: 100%; }
+
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .user { flex: 1; }
+    .user img { max-width: 150px; }
+}

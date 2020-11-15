@@ -2,18 +2,18 @@
 ## Learning how to data
 Bringing data in from a data base using PHP, Ajax and JS
 
-# Installation
-## Sass, Text editor and updated browser
+## Installation
+Sass, Text editor and updated browser
 
-# Usage
-## Pull from GIT and open in a browser 
+## Usage
+Pull from GIT and open in a browser 
 Must also have the database stored locally 
 
-# Contributing
-## Just me 
+## Contributing
+Just me 
 
-# Credits
+## Credits
 
 
-# License
-## Fanshawe College
+## License
+Fanshawe College
